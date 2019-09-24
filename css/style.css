@@ -1,0 +1,98 @@
+@font-face{
+  family : Dagger,
+  src : url( "../fonts/DAGGERSQUARE_OBLIQUE.odf" )  format("opentype");
+}
+
+
+@font-face{
+  family : kr,
+  src : url( "../fonts/.KR_All_sport.ttf" )  format("truetype");
+}
+
+body{
+  background-image: url(../media/backgroud.jpg);
+  background-color: #87cefa\9;
+  background-image : none\9;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;    
+  background-size: cover;
+  filter: alpha(opacity = 60);
+  height: 600px;
+  
+}
+
+h1{
+  font-family: Dagger ;
+}
+
+#selectMenu {
+  display: block;
+  bottom: auto;
+  height: auto;
+  width: 25%;
+  color: black;
+  border-radius: 25px;
+  color: whitesmoke;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  overflow: hidden;
+}
+
+select{
+  overflow: hidden;
+  height: 20px;
+  width: 200px;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+#turfImage{
+  width: 600px;
+  height: 600px;
+  float: center;
+  left:400px;
+  padding-right: 0px;
+  border: none !important;
+  position: fixed;  
+}
+
+#finalMenu{
+  color: black;
+  float: right;
+  display: block;
+  right: 100px;
+  overflow: hidden;
+  margin-right: 0px;
+  margin-right: 20px;
+  background-color: cadetblue;
+  border-radius: 5px;
+}
+
+form{
+  display: block;
+  font-family: sans-serif;
+}
+
+label{
+  padding-left: 20px;
+}
+
+input{
+  border-radius: 5px;
+}
+
+#sBut{
+  align-content: center;
+  margin-left: 40px;
+}
+
+#i1{
+  padding-top: 140px;
+  padding-left: 270px;
+  position: absolute;
+  height: 140px;
+  width: 140px;
+}
